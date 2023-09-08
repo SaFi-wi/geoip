@@ -14,7 +14,9 @@
       "type": "text",
       "action": "output",
       "args":{
+        "outputDir": "./publish",
         "outputName": "locneed.txt",
+        "onlyIPType": "ipv4",
         "wantedList":[
           "cloudflare",
           "cloudfront",
