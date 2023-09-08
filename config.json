@@ -14,7 +14,7 @@
       "type": "text",
       "action": "output",
       "args":{
-        "outpurtName": "locneed.txt",
+        "outputName": "locneed.txt",
         "wantedList":[
           "cloudflare",
           "cloudfront",
