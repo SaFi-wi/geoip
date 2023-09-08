@@ -52,7 +52,6 @@ jobs:
       - name: Move files to publish directory
         run: |
           mkdir -p publish
-          cat ./publish/*.text >> ./publish/locneed.txt
           cp -fpPR ./output/text ./publish
 
       - name: Git push assets to "release" branch
