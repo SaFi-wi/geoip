@@ -14,8 +14,8 @@
       "type": "text",
       "action": "output",
       "args":{
+        "outputName": "geoip.txt",
         "outputDir": "./publish",
-        "outputName": "locneed.txt",
         "onlyIPType": "ipv4",
         "wantedList":[
           "cloudflare",
