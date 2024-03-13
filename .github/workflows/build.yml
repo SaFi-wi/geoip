@@ -53,6 +53,7 @@ jobs:
         run: |
           mkdir -p publish
           cat ./publish/* >> ./publish/locneed.txt
+          sed -i '/162.158.0.0\/15/d' ./publish/locneed.txt
         #cp -fpPR ./output/text ./publish
 
       - name: Git push assets to "release" branch
